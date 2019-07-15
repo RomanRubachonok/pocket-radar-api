@@ -1,0 +1,19 @@
+{
+    "name": "romanrubachonok/pocket-radar",
+    "authors": [
+        {
+            "name": "Roman Rubachonok",
+            "email": "Roman.Rubachonok@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": "7.2.*",
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^1.26.3 || ^2.0"
+    }
+}
